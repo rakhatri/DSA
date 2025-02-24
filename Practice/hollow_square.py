@@ -10,9 +10,9 @@ def generate_hollow_square(n):
     """
     # Your code here
     output = []
-    if n == 1:
-        output.append("*" * n)
-        return output
+    # if n == 1:
+    #     output.append("*" * n)
+    #     return output
     output.append('*' * n)
     spaces = n - 2
     for i in range(2, n):
@@ -20,5 +20,5 @@ def generate_hollow_square(n):
     output.append("*" * n)
     return output
 
-print(generate_hollow_square(3))
+print(generate_hollow_square(5))
 
